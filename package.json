@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "radium": "^0.25.2",
     "react": "^16.8.6",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-tabs": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +30,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollotruong/my-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apollotruong/my-app/issues"
+  },
+  "homepage": "https://github.com/apollotruong/my-app#readme",
+  "description": "",
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
   }
 }
