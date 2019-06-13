@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import Radium from 'radium';
 import {StyleRoot} from 'radium';
-import { bounce, fadeIn } from 'react-animations';
+import { fadeIn } from 'react-animations';
 
 
 
@@ -36,10 +35,12 @@ class App extends Component {
             Hey!
 
             
+
+            
           </p>
           <StyleRoot>
           <div className="test" style={styles.fadeIn}>
-          
+          <SocialIcon network="linkedin" bgColor="#00f6ff" url="https://www.linkedin.com/in/apollo-truong-a61129116/" style={styles.socialIconLinkedIn}> </SocialIcon>{" "}<SocialIcon network="email" bgColor="#00f6ff" url="mailto:apollomtruong@gmail.com"> </SocialIcon> <SocialIcon network="github" bgColor="#00f6ff" url="https://github.com/apollotruong" ></SocialIcon>
           </div>
           </StyleRoot>
 
