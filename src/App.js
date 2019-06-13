@@ -39,7 +39,7 @@ class App extends Component {
           </p>
           <StyleRoot>
           <div className="test" style={styles.fadeIn}>
-          <SocialIcon network="linkedin" bgColor="#00f6ff" url="https://www.linkedin.com/in/apollo-truong-a61129116/" style={styles.socialIconLinkedIn}> </SocialIcon>{" "}<SocialIcon network="email" bgColor="#00f6ff" url="mailto:apollomtruong@gmail.com"> </SocialIcon> <SocialIcon network="github" bgColor="#00f6ff" url="https://github.com/apollotruong" ></SocialIcon>
+          
           </div>
           </StyleRoot>
 
