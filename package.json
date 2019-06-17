@@ -41,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/apollotruong/my-app/issues"
   },
-  "homepage": "https://github.com/apollotruong/my-app#readme",
+  "homepage": ".",
   "description": "",
   "devDependencies": {
     "react-social-icons": "^4.1.0"
