@@ -40,6 +40,17 @@
   width: 100px;
 }
 
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links div {
+  width: 250px;
+  height: 250px;
+}
+
 @keyframes test {
   0% {
     opacity: 0;
